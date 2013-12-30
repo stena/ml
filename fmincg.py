@@ -47,8 +47,14 @@
 # 1) Function name and argument specifications
 # 2) Output display
 
-# [Iago López Galeiras] Changes Made:
+# [Iago LÃ³pez Galeiras] Changes Made:
 # 1) Python translation
+
+# [Sten Malmlund] Changes Made:
+# 1) added option['maxiter'] passing
+# 2) changed a few np.dots to np.multiplys
+# 3) changed the conatenation line so that now it can handle one item arrays
+# 4) changed the printing part to print the Iteration lines to the same row
 
 import numpy as np
 import sys
